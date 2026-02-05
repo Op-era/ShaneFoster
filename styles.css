@@ -12,6 +12,19 @@ body {
     color: #333;
 }
 
+/* Accessibility */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Links Page Styles */
 .links-container {
     max-width: 680px;
@@ -165,6 +178,27 @@ body {
     font-weight: 300;
 }
 
+/* Bottom Header - Less Prominent */
+.portfolio-header-bottom {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.portfolio-header-bottom .header-name {
+    font-size: 1.8rem;
+    color: #4a5568;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.portfolio-header-bottom .header-subtitle {
+    font-size: 1rem;
+    color: #718096;
+    font-weight: 300;
+}
+
 /* About Section */
 .about-section {
     margin-bottom: 80px;
@@ -190,6 +224,39 @@ body {
     line-height: 1.8;
     color: #4a5568;
     margin-bottom: 20px;
+}
+
+/* About Section Bottom - Less Prominent */
+.about-section-bottom {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    opacity: 0.8;
+}
+
+.about-section-bottom .about-content {
+    background: rgba(245, 247, 250, 0.5);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-section-bottom .about-content h3 {
+    font-size: 1.3rem;
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.about-section-bottom .about-content h2 {
+    font-size: 1.3rem;
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.about-section-bottom .about-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #718096;
+    margin-bottom: 15px;
 }
 
 .stats {
@@ -221,9 +288,18 @@ body {
     font-size: 0.95rem;
 }
 
+/* Stats in bottom section - smaller */
+.about-section-bottom .stat-number {
+    font-size: 1.5rem;
+}
+
+.about-section-bottom .stat-label {
+    font-size: 0.8rem;
+}
+
 /* Gallery Section */
 .gallery-section {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .gallery-section h3 {
@@ -300,6 +376,11 @@ body {
     margin-bottom: 60px;
 }
 
+.contact-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
 .contact-cta h3 {
     font-size: 2.5rem;
     margin-bottom: 16px;
@@ -371,8 +452,20 @@ body {
         font-size: 2.5rem;
     }
 
+    .portfolio-header-bottom h1 {
+        font-size: 1.5rem;
+    }
+
+    .portfolio-header-bottom .header-name {
+        font-size: 1.5rem;
+    }
+
     .about-content {
         padding: 30px;
+    }
+
+    .about-section-bottom .about-content {
+        padding: 20px;
     }
 
     .stats {
@@ -389,6 +482,10 @@ body {
     }
 
     .contact-cta h3 {
+        font-size: 2rem;
+    }
+
+    .contact-cta h2 {
         font-size: 2rem;
     }
 }
@@ -409,5 +506,17 @@ body {
 
     .about-content p {
         font-size: 1rem;
+    }
+
+    .about-section-bottom .about-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .about-section-bottom .about-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .about-section-bottom .about-content p {
+        font-size: 0.9rem;
     }
 }
