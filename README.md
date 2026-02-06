@@ -53,8 +53,13 @@ To deploy this website:
 
 1. **GitHub Pages**: 
    - Go to repository Settings > Pages
-   - Select the branch and save
+   - Under "Build and deployment":
+     - Source: Select "Deploy from a branch"
+     - Branch: Select "main" (or your default branch) and "/ (root)"
+     - Click "Save"
+   - Wait a few minutes for the site to build
    - Your site will be available at `https://op-era.github.io/ShaneFoster/`
+   - Note: The `.nojekyll` file is included to ensure the static HTML files are served correctly without Jekyll processing
 
 2. **Other hosting**: Upload all files (HTML, CSS, images folder) to any web host
 
