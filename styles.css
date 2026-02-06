@@ -297,6 +297,44 @@ body {
     font-size: 0.8rem;
 }
 
+/* Details and Filmography Lists */
+.details-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 25px 0;
+    line-height: 1.8;
+}
+
+.details-list li {
+    color: #4a5568;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.filmography-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 25px 0;
+}
+
+.filmography-list li {
+    color: #4a5568;
+    font-size: 0.9rem;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.filmography-list li:last-child {
+    border-bottom: none;
+}
+
+.about-section-bottom .about-content h4 {
+    font-size: 1.1rem;
+    color: #2d3748;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+}
+
 /* Gallery Section */
 .gallery-section {
     margin-bottom: 60px;
