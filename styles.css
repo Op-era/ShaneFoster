@@ -558,3 +558,292 @@ body {
         font-size: 0.9rem;
     }
 }
+
+/* Actor-specific portfolio styles for casting directors */
+.actor-intro-card {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.main-headshot-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 0 auto 25px;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.actor-identity-line {
+    font-size: 2.2rem;
+    color: #2d3748;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.quick-action-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.action-link {
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.action-resume {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.action-resume:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(102, 126, 234, 0.5);
+}
+
+.action-contact {
+    background: white;
+    color: #667eea;
+    border: 2px solid #667eea;
+}
+
+.action-contact:hover {
+    background: #f7fafc;
+    transform: translateY(-2px);
+}
+
+.performer-background {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+    padding: 45px 40px;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.performer-background h2 {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.value-statement {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 18px;
+    line-height: 1.7;
+}
+
+.performer-background p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+.actor-credentials {
+    background: white;
+    padding: 45px 40px;
+    border-radius: 14px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.actor-credentials h2 {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.training-credentials,
+.performance-credits,
+.physical-info {
+    margin-bottom: 35px;
+}
+
+.training-credentials h3,
+.performance-credits h3,
+.physical-info h3 {
+    font-size: 1.4rem;
+    color: #667eea;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.training-roster {
+    list-style: none;
+    padding: 0;
+}
+
+.training-roster li {
+    padding: 12px 0;
+    font-size: 1.05rem;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.training-roster li:last-child {
+    border-bottom: none;
+}
+
+.roles-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.roles-table tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.roles-table tr:last-child {
+    border-bottom: none;
+}
+
+.roles-table td {
+    padding: 12px 8px;
+    font-size: 1.05rem;
+    color: #4a5568;
+}
+
+.roles-table td:first-child {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.actor-specs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.actor-specs li {
+    font-size: 1.05rem;
+    color: #4a5568;
+}
+
+.actor-contact-area {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 50px 40px;
+    border-radius: 14px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.actor-contact-area h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.inquiry-form {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: rgba(255, 255, 255, 0.95);
+    color: #2d3748;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #718096;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: 3px solid rgba(255, 255, 255, 0.5);
+    background: white;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-submit-btn {
+    width: 100%;
+    padding: 16px;
+    background: white;
+    color: #667eea;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.form-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.direct-contact-info {
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.direct-contact-info a {
+    color: white;
+    text-decoration: underline;
+    transition: opacity 0.25s ease;
+}
+
+.direct-contact-info a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .actor-identity-line {
+        font-size: 1.7rem;
+    }
+    
+    .main-headshot-image {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .quick-action-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .action-link {
+        width: 100%;
+    }
+    
+    .performer-background,
+    .actor-credentials,
+    .actor-contact-area {
+        padding: 30px 25px;
+    }
+    
+    .actor-specs {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
