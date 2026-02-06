@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shane Foster - Portfolio</title>
+    <title>Shane Foster - Actor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="portfolio-page">
@@ -12,60 +12,121 @@
     </nav>
 
     <div class="portfolio-container">
-        <h1 class="visually-hidden">Shane Foster Portfolio</h1>
-        
+        <!-- Scannable top section for casting directors -->
+        <section class="actor-intro-card">
+            <img src="images/photo1.jpg" alt="Shane Foster Actor Headshot" class="main-headshot-image">
+            <h1 class="actor-identity-line">Shane Foster | Actor | Meisner Trained</h1>
+            <div class="quick-action-row">
+                <a href="mailto:TheShaneMFoster@gmail.com?subject=Acting%20Inquiry" class="action-link action-resume">Download Resume</a>
+                <a href="#contact-form-section" class="action-link action-contact">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- Acting-focused bio with technical edge -->
+        <section class="performer-background">
+            <h2>Bringing Technical Mastery to Performance</h2>
+            <p class="value-statement">A seasoned cinematographer with 15+ years of set experience, bringing a high technical IQ and professional discipline to every performance.</p>
+            <p>Trained in Meisner technique at Houde School and advanced work with Bernard Hiller. At 6'2", I bring commanding physical presence combined with deep understanding of camera, lighting, and storytelling from years behind the lens.</p>
+        </section>
+
+        <!-- Streamlined acting resume -->
+        <section class="actor-credentials">
+            <h2>Professional Background</h2>
+            
+            <div class="training-credentials">
+                <h3>Training</h3>
+                <ul class="training-roster">
+                    <li><strong>Bernard Hiller Masterclass</strong> — Advanced Acting Technique</li>
+                    <li><strong>Houde School of Acting</strong> — Meisner Technique</li>
+                </ul>
+            </div>
+
+            <div class="performance-credits">
+                <h3>Film & Short Credits</h3>
+                <table class="roles-table">
+                    <tr><td>Hot Rod Horror</td><td>Supporting Role</td></tr>
+                    <tr><td>Push (Short)</td><td>Supporting Role</td></tr>
+                    <tr><td>Sleeper</td><td>Supporting Role</td></tr>
+                    <tr><td>Tears</td><td>Supporting Role</td></tr>
+                </table>
+            </div>
+
+            <div class="physical-info">
+                <h3>Stats</h3>
+                <ul class="actor-specs">
+                    <li>Height: 6'2" (1.88m)</li>
+                    <li>Age Range: 40-50s</li>
+                    <li>Location: Available for NYC</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Photo gallery as "Look Book" -->
         <section class="gallery-section" aria-label="Portfolio Gallery">
+            <h2>Look Book</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="images/photo1.jpg" alt="Portfolio photo 1">
+                    <img src="images/photo1.jpg" alt="Professional suited look">
                     <div class="gallery-overlay">
-                        <p>Smiling Headshot</p>
+                        <p>The Professional (Suited)</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/photo2.jpg" alt="Portfolio photo 2">
+                    <img src="images/photo2.jpg" alt="Blue collar gritty look">
                     <div class="gallery-overlay">
-                        <p>Serious Headshot</p>
+                        <p>The Blue Collar (Denim/Gritty)</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/photo3.jpg" alt="Portfolio photo 3">
+                    <img src="images/photo3.jpg" alt="Antagonist shadowy look">
                     <div class="gallery-overlay">
-                        <p>Full-Body Shot</p>
+                        <p>The Antagonist (Shadowy/Moody)</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/photo4.jpg" alt="Portfolio photo 4">
+                    <img src="images/photo4.jpg" alt="Versatile character look">
                     <div class="gallery-overlay">
-                        <p>3/4 Angle</p>
+                        <p>Versatile Character</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/photo5.jpg" alt="Portfolio photo 5">
+                    <img src="images/photo5.jpg" alt="Leading man look">
                     <div class="gallery-overlay">
-                        <p>Profile Shot</p>
+                        <p>Leading Man</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/photo6.jpg" alt="Portfolio photo 6">
+                    <img src="images/photo6.jpg" alt="Production still">
                     <div class="gallery-overlay">
-                        <p>Natural Look</p>
+                        <p>Production Still</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="contact-cta">
-            <h2>Let's Work Together</h2>
-            <p>Interested in collaborating? I'd love to hear from you!</p>
-            <a href="mailto:TheShaneMFoster@gmail.com" class="cta-button">Get In Touch</a>
+        <!-- Contact form for casting directors -->
+        <section id="contact-form-section" class="actor-contact-area">
+            <h2>Get In Touch</h2>
+            <form class="inquiry-form" action="mailto:TheShaneMFoster@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                <input type="text" name="subject" placeholder="Subject" required class="form-input">
+                <textarea name="message" placeholder="Your Message" rows="5" required class="form-textarea"></textarea>
+                <button type="submit" class="form-submit-btn">Send Message</button>
+            </form>
+            <p class="direct-contact-info">
+                <strong>Email:</strong> <a href="mailto:TheShaneMFoster@gmail.com">TheShaneMFoster@gmail.com</a><br>
+                <strong>IMDb:</strong> <a href="https://www.imdb.com" target="_blank" rel="noopener">View IMDb Profile</a>
+            </p>
         </section>
+    </div>
 
-        <section class="portfolio-header-bottom">
-            <div class="header-name">Shane Foster</div>
-            <div class="header-subtitle">Cinematographer & Actor</div>
-        </section>
+    <footer class="footer">
+        <p>&copy; 2024 Shane Foster. All rights reserved. | <a href="#cinematography-work" style="color: inherit; opacity: 0.7;">Technical Portfolio available here</a></p>
+    </footer>
 
+    <!-- Cinematography section moved to bottom -->
+    <div id="cinematography-work" style="display: none;">
         <section class="about-section-bottom">
             <div class="about-content">
                 <h2>About Me</h2>
@@ -142,9 +203,5 @@
             </div>
         </section>
     </div>
-
-    <footer class="footer">
-        <p>&copy; 2024 Shane Foster. All rights reserved.</p>
-    </footer>
 </body>
 </html>
